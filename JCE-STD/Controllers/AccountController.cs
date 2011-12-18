@@ -28,24 +28,32 @@ namespace JCE_STD.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (Membership.ValidateUser(model.UserName, model.Password))
+                if (model.UserName == "motiaz" && model.Password == "1234")
                 {
-                    FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
-                    if (Url.IsLocalUrl(returnUrl) && returnUrl.Length > 1 && returnUrl.StartsWith("/")
-                        && !returnUrl.StartsWith("//") && !returnUrl.StartsWith("/\\"))
-                    {
-                        return Redirect(returnUrl);
-                    }
-                    else
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
+                    return RedirectToAction("Success","Home");
+                }
+                else if (model.UserName == "stasbe" && model.Password == "1234")
+                {
+                    return RedirectToAction("Success", "Home");
+                }
+                else if (model.UserName == "orenzv" && model.Password == "1234")
+                {
+                    return RedirectToAction("Success", "Home");
+                }
+                else if (model.UserName == "arielle" && model.Password == "1234")
+                {
+                    return RedirectToAction("Success", "Home");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                    ModelState.AddModelError("", "שם המשתמש או הסיסמא שגויים,נסה שנית.");
                 }
             }
+            else
+                {
+                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                }
+            
 
             // If we got this far, something failed, redisplay form
             return View(model);
