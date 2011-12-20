@@ -24,7 +24,7 @@ namespace JCE_STD.Controllers
         // POST: /Account/LogOn
 
         [HttpPost]
-        public ActionResult LogOn(LogOnModel model, string returnUrl)
+        public ActionResult LogOn(LogOnModel model)
         {
             if (ModelState.IsValid)
             {
