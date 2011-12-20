@@ -5,7 +5,7 @@ using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using JCE_STD.;
+using JCE_STD;
 using NUnit.Framework;
 
 
@@ -29,10 +29,13 @@ namespace JCE_STD.Test.Controller
            
                 
              ViewResult abc = new ViewResult();
-            abc.View = "Success";
-            Assert.AreEqual(r, AC.LogOn(model))
+           
+            Assert.AreEqual(abc.View, AC.LogOn(model));
 
             
         }
+    
+
     }
+
 }

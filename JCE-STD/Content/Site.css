@@ -5,8 +5,11 @@ to use a different color start by replacing all instances of
 ----------------------------------------------------------*/
 body {
     background-image: url('background.png');
-    font-size: .85em;
-    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:left top;
+    font-size: 0.99em;
+    font-family: Andalus;
     margin: 0;
     padding: 0;
     color: #696969;
@@ -126,13 +129,14 @@ footer,
 ----------------------------------------------------------*/
 ul#menu {
     border-bottom: 1px #5C87B2 solid;
-    padding: 0 0 2px;
+    padding: 20px 0 0 0;
     position: relative;
-    margin: 0;
+    margin: 0 0 0 0;
     text-align: right;
 }
 
-ul#menu li {
+ul#menu li 
+{
     display: inline;
     list-style: none;
 }
