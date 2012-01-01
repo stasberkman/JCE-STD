@@ -24,5 +24,22 @@ namespace JCE_STD.Controllers
         {
             return View();
         }
+        public ActionResult moti()
+        {
+            return View();
+        }
+        public ActionResult stas()
+        {
+            return View();
+        }
+        public ActionResult oren()
+        {
+            return View();
+        }
+        public ActionResult ariel()
+        {
+            return View();
+        }
+
     }
 }

@@ -30,19 +30,19 @@ namespace JCE_STD.Controllers
             {
                 if (model.UserName == "motiaz" && model.Password == "1234")
                 {
-                    return RedirectToAction("Success","Home");
+                    return RedirectToAction("moti","Home");
                 }
                 else if (model.UserName == "stasbe" && model.Password == "1234")
                 {
-                    return RedirectToAction("Success", "Home");
+                    return RedirectToAction("stas", "Home");
                 }
                 else if (model.UserName == "orenzv" && model.Password == "1234")
                 {
-                    return RedirectToAction("Success", "Home");
+                    return RedirectToAction("oren", "Home");
                 }
                 else if (model.UserName == "arielle" && model.Password == "1234")
                 {
-                    return RedirectToAction("Success", "Home");
+                    return RedirectToAction("ariel", "Home");
                 }
                 else
                 {
