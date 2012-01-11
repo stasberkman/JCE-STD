@@ -172,9 +172,19 @@
     <Content Include="Views\Home\stas.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="courses\automation\ex1.pdf" />
+    <None Include="courses\automation\ex2.pdf" />
+    <None Include="courses\automation\ex3.pdf" />
+    <None Include="courses\automation\ex4.pdf" />
+    <None Include="courses\automation\ex5.pdf" />
+    <None Include="courses\automation\ex6.pdf" />
     <None Include="courses\computers_communication\ex1.pdf" />
     <None Include="courses\computers_communication\ex2.pdf" />
     <None Include="courses\computers_communication\ex3.pdf" />
+    <None Include="courses\computers_communication\ex4.pdf" />
+    <None Include="courses\creative_thinking\ex1.pdf" />
+    <None Include="courses\creative_thinking\ex2.pdf" />
+    <None Include="courses\creative_thinking\ex3.pdf" />
     <None Include="courses\network_application\ex1.pdf" />
     <None Include="courses\network_application\ex2.pdf" />
     <None Include="courses\network_application\ex3.pdf" />
@@ -182,8 +192,12 @@
     <None Include="courses\science_programming\ex2.pdf" />
     <None Include="courses\science_programming\ex3.pdf" />
     <None Include="courses\science_programming\ex4.pdf" />
+    <None Include="courses\signals_and_systems\ex1.pdf" />
+    <None Include="courses\signals_and_systems\ex2.pdf" />
+    <None Include="courses\signals_and_systems\ex3.pdf" />
     <None Include="courses\statistics_and_probability2\ex1.pdf" />
     <None Include="courses\statistics_and_probability2\ex10.pdf" />
+    <None Include="courses\statistics_and_probability2\ex11.pdf" />
     <None Include="courses\statistics_and_probability2\ex2.pdf" />
     <None Include="courses\statistics_and_probability2\ex3.pdf" />
     <None Include="courses\statistics_and_probability2\ex4.pdf" />
