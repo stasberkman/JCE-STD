@@ -1,38 +1,54 @@
-﻿<h2 align=right>שלום אריאל לוי</h2>
-<h3 align=right>שם הקורס: אותות ומערכות</h3>
-<h4 align=right>: תרגילים להורדה</h4>
+﻿@*
+    author: Ariel Levi
+    content summary: this page includes the exercises of the student stas berkman by the courses that he has
+    posibilities: Ariel Levi can view specific exersise or download it to his private computer as rar file
+                  and extract it.
+*@
+
+
+<h2 align="right">שלום אריאל לוי</h2>
+<h3 align="right">שם הקורס: אותות ומערכות</h3>
+<h4 align="right">: תרגילים להורדה</h4>
 @for (var i = 1; i < 4; i++)
 {
     string temp = "/courses/signals_and_systems/ex" + @i + ".pdf";
-   <span style="float:right;"><a href=@temp>@i תרגיל  </a> </span>
-   <br />
+    <span style="float:right;"><a href='@temp'>@i תרגיל  </a> </span>
+    string temp1 = "window.location.href='/courses/signals_and_systems/ex" + @i + ".rar'";
+    <span style="text-align:right;"><form><input type="button" value="Download Now" onclick='@temp1'/></form></span>
+    <br />
 }
 
-<h3 align=right>שם הקורס: מבוא לתכנות מדעי</h3>
-<h4 align=right>: תרגילים להורדה</h4>
+<h3 align="right">שם הקורס: מבוא לתכנות מדעי</h3>
+<h4 align="right">: תרגילים להורדה</h4>
 @for (var i = 1; i < 5; i++)
 {
     string temp = "/courses/science_programming/ex" + @i + ".pdf";
-   <span style="float:right;"><a href=@temp>@i תרגיל  </a> </span>
-   <br />
+    <span style="float:right;"><a href='@temp'>@i תרגיל  </a> </span>
+    string temp1 = "window.location.href='/courses/science_programming/ex" + @i + ".rar'";
+    <span style="text-align:right;"><form><input type="button" value="Download Now" onclick='@temp1'/></form></span>
+    <br />
 }
 
-<h3 align=right>שם הקורס: אוטומטים ושפות פורמליות</h3>
-<h4 align=right>: תרגילים להורדה</h4>
+<h3 align="right">שם הקורס: אוטומטים ושפות פורמליות</h3>
+<h4 align="right">: תרגילים להורדה</h4>
 @for (var i = 1; i < 7; i++)
 {
     string temp = "/courses/automation/ex" + @i + ".pdf";
-   <span style="float:right;"><a href=@temp>@i תרגיל  </a> </span>
-   <br />
+    <span style="float:right;"><a href='@temp'>@i תרגיל  </a> </span>
+    string temp1 = "window.location.href='/courses/automation/ex" + @i + ".rar'";
+    <span style="text-align:right;"><form><input type="button" value="Download Now" onclick='@temp1'/></form></span>
+    <br />
 }
 
-<h3 align=right>שם הקורס: חשיבה יצירתית</h3>
-<h4 align=right>: תרגילים להורדה</h4>
+<h3 align="right">שם הקורס: חשיבה יצירתית</h3>
+<h4 align="right">: תרגילים להורדה</h4>
 @for (var i = 1; i < 4; i++)
 {
     string temp = "/courses/creative_thinking/ex" + @i + ".pdf";
-   <span style="float:right;"><a href=@temp>@i תרגיל  </a> </span>
-   <br />
+    <span style="float:right;"><a href='@temp'>@i תרגיל  </a> </span>
+    string temp1 = "window.location.href='/courses/creative_thinking/ex" + @i + ".rar'";
+    <span style="text-align:right;"><form><input type="button" value="Download Now" onclick='@temp1'/></form></span>
+    <br />
 }
 <p>
     

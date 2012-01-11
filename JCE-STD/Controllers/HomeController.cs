@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * to this controller we redirect each pach that we are entering in JCE-STD
+ * includes all the views of the student that are entering to site
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

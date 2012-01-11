@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+    account controller includes action result to the pages of the student courses site selection
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -26,7 +29,7 @@ namespace JCE_STD.Controllers
         [HttpPost]
         public ActionResult LogOn(LogOnModel model)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid)//manual implementation of the login for the project staff only
             {
                 if (model.UserName == "motiaz" && model.Password == "1234")
                 {
@@ -45,7 +48,7 @@ namespace JCE_STD.Controllers
                     return RedirectToAction("ariel", "Home");
                 }
                 else
-                {
+                {   //wrong pass
                     ModelState.AddModelError("", "שם המשתמש או הסיסמא שגויים,נסה שנית.");
                 }
             }
