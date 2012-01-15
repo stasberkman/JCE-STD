@@ -71,8 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\background.png" />
-    <Content Include="Content\Image\background.png" />
+    <Content Include="Content\Image\background2.png" />
     <Content Include="Content\Image\home-showcase.png" />
     <Content Include="Content\Image\logo.png" />
     <Content Include="Content\Image\placeholder.gif" />
