@@ -25,6 +25,10 @@ namespace JCE_STD.Controllers
         {
             return View();
         }
+        public ActionResult Help()
+        {
+            return View();
+        }
         public ActionResult Success()
         {
             return View();
