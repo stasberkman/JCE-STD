@@ -102,6 +102,10 @@
     <Content Include="Content\themes\base\jquery.ui.slider.css" />
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="courses\Schedule\038764270.png" />
+    <Content Include="courses\Schedule\066352113.png" />
+    <Content Include="courses\Schedule\034602516.png" />
+    <Content Include="courses\Schedule\306679440.png" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
